@@ -15,11 +15,11 @@
                     <asp:BoundField DataField="Nome" HeaderText="Nome"/>
                     <asp:BoundField DataField="Email" HeaderText="Email"/>
                     <asp:BoundField DataField="DataCriacao" HeaderText="Data Criação"/>
-                    <asp:TemplateField>
+                    <!-- <asp:TemplateField>
                         <ItemTemplate>
                             <asp:LinkButton ID="BtnSelect" Text="Selecionar" runat="server" CommandArgument='<%# Eval("IDUtilizador") %>' OnClick="BtnSelect_Click" />
                         </ItemTemplate>
-                    </asp:TemplateField>
+                    </asp:TemplateField> -->
                 </Columns>
             </asp:GridView>
         </div>

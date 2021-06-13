@@ -29,9 +29,9 @@ namespace EXSanitop
             }
         }
 
-        protected void BtnSelect_Click(object sender, EventArgs e)
+        /*protected void BtnSelect_Click(object sender, EventArgs e)
         {
             int IDUtilizador = Convert.ToInt32((sender as LinkButton).CommandArgument);
-        }
+        } */
     }
 }

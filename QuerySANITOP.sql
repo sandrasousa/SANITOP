@@ -10,4 +10,5 @@ CREATE TABLE SANITOP.dbo.TBUtilizador (
 SELECT * FROM SANITOP.dbo.TBUtilizador;
 
 INSERT INTO SANITOP.dbo.TBUtilizador VAlUES ('Sandra','sandrasousa1908@gmail.com', GETDATE());
+INSERT INTO SANITOP.dbo.TBUtilizador VAlUES ('Sousa','sandrasousa1908@gmail.com', GETDATE());
 
